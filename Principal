@@ -1,0 +1,32 @@
+__author__ = 'Daniel Carranza Lopez'
+
+
+from memoria_estatica import *
+
+"""
+
+arreglo = memoria_estatica()
+arreglo.recorrerArreglo()
+print 'Agregar elemento'
+elemento = raw_input()
+arreglo.agregarelementoarray(elemento)
+arreglo.recorrerArreglo()
+
+"""
+promedio = 9.67
+otralista = []
+supermercado = ['VERDURA','JUGO', 'GALLETAS', 'SABRITAS', 'CARNE']
+precios = [18,34,67,89]
+porcentajes = [.34, .56, .12, 1.2]
+
+listas = memDinamica(supermercado)
+listas.imprimirLista()
+listas.ordenarLista()
+listas.imprimirLista()
+listas.agregarelementoarray('CIGARRO')
+listas.imprimirLista()
+
+lista2 = memDinamica(precios)
+lista2.imprimirLista()
+lista2.agregarelementoarray(89)
+lista2.imprimirLista()
